@@ -20,4 +20,4 @@ jobs:
           name: Run tests
           command: |
             pipenv run flake8 --statistics
-            pytest -v --cov=calculator
+            pipenv run pytest -v --cov=calculator
